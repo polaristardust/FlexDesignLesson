@@ -12,9 +12,12 @@ let toggleMenu = function(){
     if(menu.classList.contains("active")){
         // the menu is already open, close it
         menu.classList.remove("active");
+        toggle.querySelector("a").innerHTML ="<span class='fas fa-bars'></span>"
     } else {
         // the menu is closed, open it
         menu.classList.add("active");
+        toggle.querySelector("a").innerHTML ="<span class='fas fa-times'></span>"
+
     }
 }
 
