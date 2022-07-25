@@ -9,7 +9,13 @@ const menu = document.querySelector(".menu");
 // writes 'working' to the console
 
 let toggleMenu = function(){
-    console.log("working");
+    if(menu.classList.contains("active")){
+        // the menu is already open, close it
+        menu.classList.remove("active");
+    } else {
+        // the menu is closed, open it
+        menu.classList.add("active");
+    }
 }
 
 // Exercise 3:
