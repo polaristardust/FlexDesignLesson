@@ -1,8 +1,8 @@
 // Exercise 1: 
 // make toggle equal the item with the class 'toggle'
 // and menu equal the item with the class 'menu'
-const toggle = document.querySelector("toggle");
-const menu = document.querySelector("menu");
+const toggle = document.querySelector(".toggle");
+const menu = document.querySelector(".menu");
 
 // Exercise 2:
 // make a function called 'toggleMenu' that 
@@ -15,3 +15,5 @@ let toggleMenu = function(){
 // Exercise 3:
 // Add an event listener to the toggle element
 // to run the toggleMenu function
+
+toggle.addEventListener("click", toggleMenu);
