@@ -29,3 +29,26 @@
 .active .item {
     display: block;
 }
+
+/*Desktop menu*/
+@media screen and (min-width: 960px) {
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+
+    .item {
+        display: block;
+        justify-content: flex-end;
+        order: 2;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .logo {
+        order: 1;
+    }
+}
