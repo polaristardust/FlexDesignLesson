@@ -63,3 +63,14 @@ header {
     width: 200px;
     padding: 20px 30px;
 }
+
+@media screen and (min-width: 960px) {
+    #plans {
+        flex-direction: column;
+    }
+
+    .plan {
+        width: 100%;
+        padding: 20px 30px;
+    }
+}
